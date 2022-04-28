@@ -35,16 +35,33 @@
 
 // TODO: check for another approach use steps of udemy course
 
-function isPalindrome(str){
-  let newArr=str.split('')
-  let reverseArr=[]
-  for(let i=newArr.length - 1;i>=0;i--){
-     reverseArr.push(newArr[i])
-  }
-  if(reverseArr.join("") === str){
-    return console.log(true)
-  }
- return console.log(false)
-}
+// function isPalindrome(str){
+//   let newArr=str.split('').reverse().join("")
+//   // let reverseArr=[]
+//   // for(let i=newArr.length - 1;i>=0;i--){
+//   //    reverseArr.push(newArr[i])
+//   // }
+//   // if(reverseArr.join("") === str){
+//   //   return console.log(true)
+//   // }
+//  return console.log(newArr === str)
+// }
 
-isPalindrome('level')
+// isPalindrome('level')
+
+
+// function reverseInt(int){
+//   const revString=int.toString().split('').reverse().join("")
+  
+//   return console.log(parseInt(revString));
+// }
+
+// reverseInt(1234)
+
+
+//#4 capitalize letters
+// return a string with first letter of every word capitalized 
+// ex. capitalizeLetter('i love js') === 'I Love Js'
+function capitalizeLetters(str){
+
+}

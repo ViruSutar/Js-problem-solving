@@ -61,3 +61,36 @@
 // }
 
 // findDigit(5,85932)
+
+
+// Find the count of digits in a number
+
+// ex. 1234  -  4digits
+// 234 - 3 digits
+
+// function findCount(digit){
+//  let digitArr=digit.toString().split("")
+//  console.log(digitArr);
+//  return digitArr.length
+// }
+
+// console.log(findCount(2345));
+
+
+// Find the largest digit
+//  ex .1234 - 4
+
+// function findLargest(digit){
+//    let digitArr= digit.toString().split("")
+//    for(let i=0;i < digitArr.length ;i++){
+//      if(digitArr[i] > digitArr[i+1]){
+//         digitArr.splice(digitArr.indexOf(digitArr[i + 1]),1,digitArr[i])
+//      } 
+//    }
+//     return digitArr[digitArr.length -1]
+// }
+
+// console.log(findLargest(321));
+
+
+// Find the 2nd largest digit
